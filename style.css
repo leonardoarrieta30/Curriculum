@@ -1,0 +1,189 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* background-color: black; 
+    color: white; */
+}
+
+ul,nav{
+    list-style: none;
+}
+
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 35px 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 12px 12px 13px black;
+
+    
+}
+
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header nav ul li:first-child {
+    margin-left: 0;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+.Sobre-mi{
+    padding: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start ;
+   
+
+    
+}
+.Sobre-mi .caja1{
+    text-align: center;
+    padding: 100px;
+    text-shadow: 10px 10px 13px black;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    border: 13px solid yellow;
+    box-shadow: 14px 14px 13px 0 black;
+    
+}
+
+.Perfil{
+
+    padding: 50px;
+    display: flex;
+    line-height:25px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: aqua;
+    
+
+}
+
+.Educacion{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Educacion h2{
+    display: flex;
+    justify-content: center;
+}
+.Educacion__tr1{
+    
+    display:flex;
+    justify-content: space-around;
+}
+.Educacion__tr2{
+    margin-left: 50px;
+    display:flex;
+    justify-content: space-around;   
+}
+.Educacion__tr2 .xd{
+    margin-left: 90px;  
+}
+
+.Habilidades{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    padding: 30px;
+    border: 12px dashed whitesmoke  ;
+    
+}
+.Habilidades h2{
+    text-align:center;
+}
+.Habilidades__1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ 
+}
+.Habilidades__2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 50px;
+
+}
+.Habilidades__3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.Conocimiento{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.Idiomas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 227, 127);
+    border:12px dashed black;
+    padding: 30px;
+}
+.Idiomas__1{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+footer h2{
+    text-align: start;
+
+}
+footer a{
+    font-size: 22px;
+}
+
+.footer{
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+   margin: 10px;
+   font-size: 30px;
+}
+.footer ul li{
+    display: inline;
+    margin-left: 5px;
+  
+}
+
